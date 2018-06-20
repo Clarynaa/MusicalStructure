@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/albumArtView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="100dp"
+        tools:src="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/songView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_toRightOf="@id/albumArtView"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        tools:text="song Name" />
+
+    <TextView
+        android:id="@+id/artistView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/songView"
+        android:layout_toRightOf="@id/albumArtView"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        tools:text="artist Name" />
+
+    <TextView
+        android:id="@+id/albumView"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@id/artistView"
+        android:layout_toRightOf="@id/albumArtView"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        tools:text="album Name" />
+
+</RelativeLayout>

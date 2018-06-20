@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="playing">Playing!</string>
+    <string name="paused"> Paused!</string>
+</resources>
